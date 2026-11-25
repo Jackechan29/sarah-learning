@@ -1,0 +1,15 @@
+name: SarahLearning
+options:
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  SarahLearning:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: ai.glimmer.sarahlearning
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: Practice speaking Polish.
+        INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: Recognize spoken practice answers.
